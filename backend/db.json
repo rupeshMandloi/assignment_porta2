@@ -1,0 +1,49 @@
+{
+  "users": [
+    {
+      "id": "au6wFXkd9mn_mLHtNXNCn",
+      "name": "Teacher One",
+      "email": "teacher@example.com",
+      "password": "$2a$10$LcHm1ganTiL9EA0OgYMIE.pRD.8kid0mLhESV8nXFwy0TL1.p2GLi",
+      "role": "teacher"
+    },
+    {
+      "id": "Qj34GNBwFpQuQ7vQT5b0g",
+      "name": "Student One",
+      "email": "student@example.com",
+      "password": "$2a$10$LcHm1ganTiL9EA0OgYMIE.oNBb1S6h6Vbz1QkMfk/K5/UwK2mSM3K",
+      "role": "student"
+    }
+  ],
+  "assignments": [
+    {
+      "id": "n-C713GELKwUEcf7Xx0zj",
+      "title": "Mathematics",
+      "description": "complete Circle concept",
+      "dueDate": "10/12/2025",
+      "status": "Completed",
+      "createdBy": "au6wFXkd9mn_mLHtNXNCn",
+      "createdAt": "2025-10-03T13:57:43.422Z"
+    },
+    {
+      "id": "rAAYzzJQpV-nqZHhowz2I",
+      "title": "Physics",
+      "description": "Complete you revision",
+      "dueDate": "10/10/2025",
+      "status": "Completed",
+      "createdBy": "au6wFXkd9mn_mLHtNXNCn",
+      "createdAt": "2025-10-05T04:53:54.688Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "otoMndqFD4bK7S1zaf2Ge",
+      "assignmentId": "rAAYzzJQpV-nqZHhowz2I",
+      "studentId": "Qj34GNBwFpQuQ7vQT5b0g",
+      "studentName": "Student One",
+      "answer": "completed",
+      "submittedAt": "2025-10-05T04:55:21.555Z",
+      "reviewed": false
+    }
+  ]
+}
